@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head
+         content must come *after* these tags -->
+
+    <title>GP Adoption</title>
+
+     <!-- Bootstrap -->
+    <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../static/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../../static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../static/css/bootstrap-social.css" rel="stylesheet">
+    <link href="../../static/css/mystyles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body style=" background: linear-gradient(to bottom right, orange, white, green);">
+   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color: black">
+   <div class="container">
+    <div class="navbar-header">
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+               aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="home3.html"><strong>GP Adoption Advisor</strong></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+     <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+     <li><a href="list.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> List of Villages</a></li>
+
+     <li><a href="contact.html"><i class="fa fa-envelope-o"></i> Contact Us</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+    <li><a data-toggle="modal" data-target="#loginmodal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+
+   </div>
+   </div>
+   </nav>
+
+    <div id="loginmodal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">Login</h4>
+    </div>
+    <div class="modal-body">
+      <form class="form-inline"><input type="email" class="form-control" id="email" placeholder="Email"><input type="password" class="form-control" id="password" placeholder="Password"><label><input type="checkbox">Remember me </label>  <a class="btn btn-default" data-dismiss="modal">Cancel</a><p style="padding:1px;"></p><a href="#" class="btn btn-primary">Login</a></form>
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+   <!--  <div id="reservemodal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">Reserve Table</h4>
+    </div>
+    <div class="modal-body">
+
+
+      <form class="form-horizontal" role="form">
+
+          <div class="form-group">
+           <div class="col-xs-12 col-sm-3">
+               <label for="guest">No. of Guest =</label></div>
+        <div class="col-xs-12 col-sm-9">
+         <input type="radio" id="guest" name="guest">1  <input type="radio" id="guest" name="guest">2
+         <input type="radio" id="guest" name="guest">3
+         <input type="radio" id="guest" name="guest">4
+         <input type="radio" id="guest" name="guest">5
+         <input type="radio" id="guest" name="guest">6
+               </div></div>
+
+          <div class="form-group">
+              <label for="section" class="col-sm-2 control-label">Section</label>
+          <div class="col-sm-10">
+               <div class="btn-group" role="group" data-toggle="buttons" aria-lable="...">
+                <label class="btn btn-success active"><input type="radio">Non-Smoking</label>
+                 <label class="btn btn-danger"><input type="radio">Smoking</label>
+                </div>
+            </div>
+
+          </div>
+
+        <div class="form-group">
+        <label for="datentime" class="col-sm-2 control-label">Date &amp; Time</label>
+        <div class="col-sm-4">
+            <input type="date" class="form-control glyphicon " id="date" name="date" placeholder="Date" >
+            </div>
+            <div class="col-sm-4">
+            <input type="time" class="form-control glyphicon" id="time" name="time" placeholder="Time">
+            </div></div>
+            <div class="form-group">
+             <div class="col-sm-offset-2 col-sm-9">
+               <button type="submit" class="btn btn-primary">Reserve</button>
+            </div>
+
+            </div>
+          <div class="form-group">
+            <div class="col-sm-offset-1 col-sm-11">
+             <div class="alert alert-warning alert-dismissible" role="alert">
+            <button type="button" class="close" aria-dismiss="alert" aria-lable="close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                <strong>Warning: </strong>Please <a href="+7657646" class="alert-link"> call</a> us to reserve for more than six guest.
+            </div>
+            </div>
+                        </div>
+
+
+
+        </form>
+
+
+    </div>
+    </div>
+    </div>
+    </div-->
+
+
+
+    <header class="jumbotron" style="background: transparent;">
+
+
+        <div class="container">
+            <div class="row row-header" style="color: black">
+                <div class="col-xs-12 col-sm-8">
+                    <br><br><h1>Government Of India</h1>
+                    <p style="padding:10px;"></p>
+                    <p>Saansad Adarsh Gram Yojana</p>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <p style="padding:6px;"></p>
+                    <img src="../../static/img/india.png" class="img-responsive" style="height:200px;margin-left: auto;
+    margin-right: auto;">
+                </div>
+
+            </div>
+        </div>
+    </header>
+<hr>
+
+
+        <div class="row row-content" style="border: none">
+        <div class="col-xs-12">
+          <marquee style="font-size: 1.8em; font-family: Trebuchet MS;color:black;  "><strong>Welcome User</strong></marquee>
+        </div>
+            <div class="col-sm-6 col-sm-offset-2">
+                <table class="table table-hover table-bordered table-rounded">
+                    <thead>
+                        <tr><th>Rank</th>
+                            <th>Gram Panchayat</th>
+                            <th>Development Index</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for panchayat in panchayat %}
+
+                        <a href="{% url 'panchayat' pk=panchayat.pk %}"></a>
+                        <tr><td>{{ panchayat.panchayat }}</td><td>{{ panchayat.dev_index }}</td><td></td></tr>
+                        {% endfor %}
+
+                        {% if users.has_other_pages %}
+                          <ul class="pagination">
+                            {% if users.has_previous %}
+                              <li><a href="?page={{ users.previous_page_number }}">&laquo;</a></li>
+                            {% else %}
+                              <li class="disabled"><span>&laquo;</span></li>
+                            {% endif %}
+                            {% for i in users.paginator.page_range %}
+                              {% if users.number == i %}
+                                <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+                              {% else %}
+                                <li><a href="?page={{ i }}">{{ i }}</a></li>
+                              {% endif %}
+                            {% endfor %}
+                            {% if users.has_next %}
+                              <li><a href="?page={{ users.next_page_number }}">&raquo;</a></li>
+                            {% else %}
+                              <li class="disabled"><span>&raquo;</span></li>
+                            {% endif %}
+                          </ul>
+                        {% endif %}
+
+
+                    </tbody>
+                </table>
+            </div>
+
+
+    </div>
+
+     <div class="container">
+          <center>
+                <h2>Maninalkur</h2>
+                <table>
+                    <tr>
+                        <th>
+
+
+
+
+                  <div id="googleMap1" style="width:300px;height:300px;"></div>
+                  <script>
+                  function myMap() {
+                  var mapOptions1 = {
+                  center: new google.maps.LatLng(12.867705, 75.147216),
+                  zoom:15,                  mapTypeId: google.maps.MapTypeId.ROADMAP
+                  }
+                  var map1 = new google.maps.Map(document.getElementById("googleMap1"),mapOptions1);
+
+                  }
+                  </script>
+                  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlkKYUasn4gMMRT-OLuy6BYG05iXnwgno&callback=myMap"></script>
+
+
+❮ Previous Next ❯
+                        </th>
+                    </tr>
+                </table>
+
+
+
+            </center>
+      </div>
+
+
+  <!---  <footer  class="row-footer" style="background: transparent">
+        <div class="container-fluid">
+                    <p align=center>© Copyright 2018 GP Adoption Advisor</p>
+        </div>
+    </footer>
+   --->
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../../static/js/jquery-1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../../static/js/bootstrap.min.js"></script>
+   <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
+</body>
+
+</html>
